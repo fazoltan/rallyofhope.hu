@@ -1,6 +1,23 @@
 .baner-content h1 {
-    font-size: 95px;
+    font-size: 90px;
 }
 .logos{
     width: 74%;
 }
+
+
+@media (max-width: 767px){
+    .baner-content h1 {
+        font-size: 40px;
+    }
+    
+} 
+
+@media (max-width: 900px){
+    .fixed-side-navbar{
+        visibility: hidden;
+    }
+    iframe{
+        width: max-content;
+    }
+} 
