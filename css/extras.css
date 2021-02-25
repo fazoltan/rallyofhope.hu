@@ -7,8 +7,14 @@
 
 
 @media (max-width: 767px){
+    .baner-content{
+        background-image: url(../img/1st-section_mobil.jpg);
+    }
+
     .baner-content h1 {
+        margin-top: 300px;
         font-size: 40px;
+        
     }
     
 } 
@@ -21,3 +27,21 @@
         width: max-content;
     }
 } 
+
+/*Robi  update*/
+.service-content {
+    background-color: #c7e5fc;
+    background-image: none;
+}
+.projects-content {
+    background-color: #a8d0f0;
+    background-image: none;
+}
+.tabs-content {
+    background-color: #86bae3;
+    background-image: none;
+}
+
+.primary-button a {
+    font-size: 20px;
+}
