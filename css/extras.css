@@ -5,6 +5,19 @@
     width: 74%;
 }
 
+a{
+    color: #75ffff;
+}
+
+.tabs a{
+    color: #63727e;
+    border-color: #63727e;
+}
+
+.service-item:hover{
+    box-shadow: 0 0 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
 
 @media (max-width: 767px){
     .baner-content{
@@ -23,14 +36,11 @@
     .fixed-side-navbar{
         visibility: hidden;
     }
-    iframe{
-        width: max-content;
-    }
 } 
 
 /*Robi  update*/
 .service-content {
-    background-color: #c7e5fc;
+    background-color: #86bae3;  
     background-image: none;
 }
 .projects-content {
@@ -38,7 +48,7 @@
     background-image: none;
 }
 .tabs-content {
-    background-color: #86bae3;
+    background-color: #c7e5fc;
     background-image: none;
 }
 
