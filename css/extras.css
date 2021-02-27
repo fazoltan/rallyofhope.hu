@@ -9,10 +9,10 @@ a{
     color: #75ffff;
 }
 
-.tabs a{
+/*.tabs a{
     color: #63727e;
     border-color: #63727e;
-}
+}*/
 
 .service-item:hover{
     box-shadow: 0 0 2px;
@@ -40,18 +40,55 @@ a{
 
 /*Robi  update*/
 .service-content {
-    background-color: #86bae3;  
-    background-image: none;
-}
-.projects-content {
-    background-color: #a8d0f0;
-    background-image: none;
-}
-.tabs-content {
+    padding-top: 5vh;
     background-color: #c7e5fc;
     background-image: none;
+    padding-bottom: 5vh;
+}
+
+.service-content .left-text h4 {
+    color: #000;
+}
+
+.service-content .left-text p {
+    color: #000;
+}
+
+.service-content .left-text ul li {
+    color: #000;
+}
+
+.service-content a {
+    color: #1E90FF;
+}
+
+.service-content a:hover {
+    color: #0000FF;
+}
+
+.projects-content {
+    padding-top: 5vh;
+    background-color: #a8d0f0;
+    background-image: none;
+    min-height: 10vh;
+    padding-bottom: 5vh;
+}
+
+.tabs-content {
+    padding-top: 5vh;
+    background-color: #86bae3;
+    background-image: none;
+    min-height: 10vh;
+    padding-bottom: 5vh;
 }
 
 .primary-button a {
     font-size: 20px;
+}
+
+.alcim {
+    text-align: center; 
+    font-weight: 500;
+    font-size: 32px; 
+    color: #fff;
 }
