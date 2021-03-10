@@ -1,7 +1,5 @@
 .baner-content {
-    /*Without warning message:
-    padding-top: 30vh;*/
-    padding-top: 0vh;
+    padding-top: 30vh;
 }
 .baner-content h1 {
     padding-top: 20vh;
@@ -68,6 +66,8 @@ p {
     margin-inline-end: 0px;
 }
 .alert-light {
+    z-index: 5;
+    position:absolute;
     background-color: #ff7d27db;
     color: #000000;
     
@@ -95,9 +95,7 @@ p {
     }
 
     .baner-content h1 {
-        /*Without warning message:
-        margin-top: 300px;*/
-        margin-top: 100px;
+        margin-top: 300px;
         font-size: 40px;
         
     }
